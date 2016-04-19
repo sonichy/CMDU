@@ -61,7 +61,7 @@ void netdev()
  fp=fopen("/proc/net/dev","r");
  fgets(ch,sizeof(ch),fp);
  fgets(ch,sizeof(ch),fp);
- fgets(ch,sizeof(ch),fp);//Deepin delete this line
+ fgets(ch,sizeof(ch),fp);   //Deepin delete this line
  fgets(ch4,sizeof(ch4),fp); 
  fclose(fp);
  //printf("%s\n",ch4);
